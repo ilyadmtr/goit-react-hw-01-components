@@ -1,0 +1,32 @@
+.statistics{
+  height: 250px;
+  width:375px;
+  margin: 70px auto;
+  background-color: #eff3f6;
+
+}
+.title{
+color:#485a68;
+height: 60px;
+width: 260px;
+text-align: center;
+margin: auto;
+padding-top: 30px;
+background-color: white;
+}
+.ul{
+  display: flex;
+}
+.item{
+  height: 60px;
+  width: 60px;
+  background-color: teal;
+  text-align: center;
+}
+.label{
+padding: 15px;
+color: white;
+}
+.percentage{
+  color: bisque;
+}

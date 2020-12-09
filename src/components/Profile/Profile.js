@@ -41,8 +41,16 @@ Profile.propTypes ={
   tag:PropTypes.string,
   location:PropTypes.string,
   avatar:PropTypes.string,
-  name:PropTypes.string,
-  stats:PropTypes.object
+  stats:PropTypes.objectOf(PropTypes.number)
+}
+Profile.defaultProps = {
+  name:"username",
+  tag:"username",
+  location:"Canada",
+  avatar: "https://cs6.pikabu.ru/post_img/2015/07/04/10/1436029898_1190099444.jpg",
+  stats:{"followers": 0,
+  "views": 0,
+  "likes": 0}
 }
 
 export default Profile;
