@@ -27,7 +27,7 @@ return(
 }
 Statistics.propTypes ={
   title: PropTypes.string,
-  stats:PropTypes.objectOf(PropTypes.string)
+  stats:PropTypes.arrayOf(PropTypes.object)
 }
 Statistics.defaultProps = {
   title:"loading",

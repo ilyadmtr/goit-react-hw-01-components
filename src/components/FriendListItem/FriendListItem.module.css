@@ -1,0 +1,29 @@
+.item{
+  width: 400px;
+  height: 110px;
+  display: flex;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.avatar{
+  width: 90px;
+  height: 90px;
+border-radius: 10px;
+}
+.name{
+  font-size: 45px;
+  margin-top: 25px;
+}
+.green_span{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin-top:45px;
+}
+.red_span{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top:45px;
+}
