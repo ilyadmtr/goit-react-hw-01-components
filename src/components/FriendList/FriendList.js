@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import PropTypes from "prop-types";
 import FriendListItem from "../FriendListItem/FriendListItem"
 
@@ -6,7 +6,7 @@ import FriendListItem from "../FriendListItem/FriendListItem"
 
 const FriendList = ({friends}) =>{
   return(<>
-  <ul className="friend-list">
+  <ul>
   {friends.map((elem)=>{
 return(<FriendListItem key={elem.id}avatar={elem.avatar} name={elem.name} isOnline={elem.isOnline} />)
   })}

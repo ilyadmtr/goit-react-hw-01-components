@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import styles from "./FriendListItem.module.css"
-import FriendList from '../FriendList/FriendList';
+
 
 const FriendListItem = ({avatar, name, isOnline}) =>{
   let bool;
-  if(isOnline == true){
+  if(isOnline === true){
   bool = "green_span"
   }
   else{
