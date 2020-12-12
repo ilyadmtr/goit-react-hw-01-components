@@ -30,7 +30,7 @@ Statistics.propTypes ={
   stats:PropTypes.arrayOf(PropTypes.object)
 }
 Statistics.defaultProps = {
-  title:"loading",
+  title:"",
   stats: [{"id": "id=0", "label": "please", "percentage": "check"}]
 }
 export default Statistics;
